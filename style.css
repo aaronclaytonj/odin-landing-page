@@ -67,7 +67,7 @@ a{
     width: 500px;
 }
 
-button{
+.su-button{
     background-color: #3882F6;
     border: 0;
     border-radius: 5px;
@@ -110,4 +110,49 @@ img {
 
 .image{
     width: 200px;
+}
+
+.quotes{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.quotes-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.last-section-bg{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section{
+    background-color: #3882F6;
+    width: 60%;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.last-text{
+    margin: 0;
+}
+
+.last-button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    align-self: flex-start;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    border: 1px solid white
 }
