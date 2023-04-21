@@ -118,14 +118,24 @@ img {
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     font-size: 36px;
+}
+
+blockquote{
+    margin-bottom: 0;
 }
 
 .quotes-section{
     background-color: #E5E7EB;
     color: #1F2937;
+}
+
+.author{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .last-section-bg{
@@ -142,10 +152,24 @@ img {
     height: 100px;
     border-radius: 10px;
     display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.last-text,.last-sub{
+    margin: 0;
 }
 
 .last-text{
+    font-size: 24px;
+    color: #F9FAF8;
     margin: 0;
+}
+
+.last-sub{
+    font-size: 18px;
+    color: white;
 }
 
 .last-button{
@@ -155,4 +179,20 @@ img {
     padding: 5px 20px;
     color: #F9FAF8;
     border: 1px solid white
+}
+
+.last-left{
+    align-items: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: white;
 }
